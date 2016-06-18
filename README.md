@@ -26,15 +26,15 @@ When you execute the solution using the above Maven execute command. You should 
 no of seconds for SeatHold object to expire.
 
 ##############Welcome to Ticket Reservation Application###########
-Please enter the no of seconds for seat hold to expire:
+Please enter the number of seconds for which seats can be placed on hold :
 ##################################################################
 For example, type 120 and hit enter. So the SeatHold object would expire in 120 seconds. You should see the following message,
-#############################################
+##############################################
 Choose one of the following options.
-1. Find no of Seats in the requested level that are neither held or reserved.
-2. Find and hold the best available seats for a customer.
-3. Commit seats held for a specific customer.
-4. Terminate the application. Note : With termination you will lose all data.
-Enter the option : 
+1. Find number of available seats.
+2. Find and hold best available seats.
+3. Commit seats.
+4. Exit. Note : With exit you will lose all data.
+Enter your choice :
 #############################################
-You can choose one of the mentioned options.
+You can choose one of the mentioned options to execute.
