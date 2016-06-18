@@ -1,5 +1,5 @@
 # Ticket-App
-#############################Readme file for TicketingApp###############################
+############################# Readme file for TicketingApp ###############################
 This application Implements a simple ticket service that facilitates the discovery, temporary hold, and final reservation of seats within a high-demand performance venue.
 
 Notes:
@@ -9,18 +9,18 @@ Notes:
 But the classes are designed to be thread safe when multiple clients access the TicketService.
 
 
-#############################Maven Tests###############################
+############################# Maven Tests ###############################
 To run Junit tests written for the application, you can run the following command form the directory contains the pom.xml:
 
 Command : mvn test
 
-#############################Maven Execute###############################
+############################# Maven Execute ###############################
 To execute the solution, you can run the following maven command
 
 Command : mvn exec:java -Dexec.mainClass="com.walmart.ticketingapp.TicketingApp"
 
 ######################################################################
-#############################Sample Run###############################
+############################# Sample Run ###############################
 When you execute the solution using the above Maven execute command. You should see the following, then you need to enter the 
 no of seconds for SeatHold object to expire.
 
