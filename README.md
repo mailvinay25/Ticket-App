@@ -23,6 +23,7 @@ Command : mvn exec:java -Dexec.mainClass="com.walmart.ticketingapp.TicketingApp"
 ######################################################################
 ############################# Sample Run ###############################
 On launching the application, the user is prompted with the following message.  
+The menu is self explanatory. 
 
 ##############Welcome to Ticket Reservation Application###########
 Please enter the number of seconds for which seats can be placed on hold :
