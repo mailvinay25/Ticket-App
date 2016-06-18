@@ -3,9 +3,9 @@
 This application Implements a simple ticket service that facilitates the discovery, temporary hold, and final reservation of seats within a high-demand performance venue.
 
 Notes:
-1. Application is a to be executed via command line console based on the requirement 
-"The solution and tests should build and execute entirely via the command line using either Maven"
-2. The application is not designed to be able to run multiple clients requesting tickets. 
+1. This is console based Application. 
+"The solution and tests should build and execute entirely via the command line using Maven"
+2. The application does not have multiple clients requesting tickets. It currently supports only one client. 
 But the classes are designed to be thread safe when multiple clients access the TicketService.
 3. Venue levels are Orchestra(level id : 1), Main(level id : 2), Balcony 1(level id : 3) and Balcony 2(level id : 4).  
 
